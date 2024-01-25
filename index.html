@@ -1,54 +1,41 @@
 <html> 
-  
+  <!-- naming the page-->
 <head> 
     <title>Growing Pains</title> 
 </head> 
   
-<!-- Frameset tag starts from here -->
   
-<!-- We divide the whole website into three rows -->
-<!-- "*" divides equally based on the left space -->
-<frameset rows="*,*,*,*"> 
-  
-    <!-- Here we are defining the columns  
-        in the first row -->
-    <!-- It is set to 100% which means that  
-        it will cover first row by 100% -->
+<!-- divide the website into three equal rows -->
+    <frameset rows="*,*,*,*"> 
+      
+<!-- defining the columns in the first row -->
     <frameset cols="100%"> 
-  
-        <!-- Defining the frame which is  
-            to be inserted -->
-        <frameset cols="*, *, *"> 
-        <!--Make the image fit the window for all the frames-->
-        <frame name="frame1" src="https://t3.ftcdn.net/jpg/00/61/11/44/360_F_61114429_68SV3ZjEbIBGEAm4RZH7ZQVM3X5xJqTF.jpg"
-         > 
+      <frameset cols="*, *, *"> 
+      <!--Make the image fit the window for all the frames-->
+        <frame name="frame1" src="https://t3.ftcdn.net/jpg/00/61/11/44/360_F_61114429_68SV3ZjEbIBGEAm4RZH7ZQVM3X5xJqTF.jpg"> 
         <frame name="frame2" src="https://www.prioritybicycles.com/cdn/shop/products/600x_angldfront.jpg?v=1663092094&width=1500"> 
         <frame name="frame3" src="https://isteam.wsimg.com/ip/d93e16fd-2e7b-11e5-912f-14feb5da1938/ols/154_original/:/rs=w:600,h:600"> 
     </frameset> 
-  
+<!--end tag for the website division-->
     </frameset> 
   
-    <!-- Here we are defining the columns  
-        in the second row -->
+<!-- defining the columns in the second row -->
     <frameset cols="*, *, *"> 
         <frame name="frame4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Steinway_%26_Sons_concert_grand_piano%2C_model_D-274%2C_manufactured_at_Steinway%27s_factory_in_Hamburg%2C_Germany.png/1200px-Steinway_%26_Sons_concert_grand_piano%2C_model_D-274%2C_manufactured_at_Steinway%27s_factory_in_Hamburg%2C_Germany.png"> 
         <frame name="frame5" src="data:image/jpeg;base64,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"> 
         <frame name="frame6" src="https://static.vecteezy.com/system/resources/previews/025/272/487/original/broken-brick-wall-isolated-png.png"> 
     </frameset> 
-  
-    <!-- Now the final third row which will  
-        cover the rest space -->
+      
+<!-- defining the columns in the third row-->
     <frameset cols="*, *"> 
         <frame name="frame7" src="https://neurosciencenews.com/files/2023/07/depression-anxiety-concept-eurscience.jpg"> 
         <frame name="frame8" src="https://www.uhsma.com/wp-content/uploads/2022/03/shutterstock_1531258040-1024x683.jpg">
-
     </frameset> 
+      
+<!-- defining the columns in the fourth row--> 
     <frameset cols="100%"> 
-        <!-- Defining the frame which is  
-            to be inserted -->
         <frame name="frame9" src="https://images.theconversation.com/files/257890/original/file-20190208-174890-1tn0xbx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"> 
   
-</frameset> 
-<!-- frameset tag ends here -->
-  
+</frameset>
+      
 </html>
